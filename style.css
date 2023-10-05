@@ -536,8 +536,8 @@ col .col2 {
     background-color: rgba(17, 17, 17, 0.47);
     border-radius: 25px;
     font-size: 18px;
-    margin: 18px 0px 0px 285px;
-
+    top: 10px;
+    right: 10px;
 }
 
 .figure .bookh1 {
@@ -551,6 +551,10 @@ col .col2 {
     margin: 210px 0px 0px 140px;
     border: 1px solid #F24080;
     left: 75px;
+}
+
+.figure {
+    position: relative;
 }
 
 .figure2 {
@@ -1468,22 +1472,20 @@ col .col2 {
     .box1 {
         background-color: #41246d;
         width: 100%;
-
         display: inline-block;
+        text-align: center;
+
     }
 
     .w3 {
         width: 100%;
-        padding: 0px 0px 0px 20px;
+        padding: 0px 0px 0px 0px;
         color: white;
     }
 
     .one h1 {
         font-size: 41px;
-        font-family: "Mulish", sans-serif;
-        font-weight: 800;
         line-height: 50px;
-        margin-bottom: 10px;
         padding-top: 30px;
     }
 
@@ -1520,11 +1522,12 @@ col .col2 {
         display: inline-block;
         width: 100%;
         margin-top: 110px;
+        text-align: center;
     }
 
     .w5 {
         width: 100%;
-        margin-left: 30px;
+        margin-left: 0px;
     }
 
     .card {
@@ -1555,7 +1558,7 @@ col .col2 {
         width: 100%;
         margin-top: 40px;
         margin-right: 0px;
-        margin-left: 30px;
+        margin-left: 0px;
     }
 
     .w6 h1 {
@@ -1674,8 +1677,8 @@ col .col2 {
 
     /* ==================== */
     .box5 {
-        width: 90%;
-        margin: 0px 16px;
+        width: 100%;
+        margin: 0px 0px;
     }
 
     .w10 {
@@ -1685,7 +1688,9 @@ col .col2 {
     .divider {
         width: 100%;
         margin-top: 100px;
-        padding-left: 20px;
+        padding-left: 0px;
+        text-align: center;
+
     }
 
     .divider h1 {
@@ -1711,10 +1716,12 @@ col .col2 {
 
     .divider2 {
         display: inline-block;
-        width: 80%;
+        width: 100%;
         border-radius: 0px;
-        padding-left: 20px;
+        /* padding-left: 20px; */
         transform: scale(1);
+        text-align: center;
+        margin: 20px 0px;
     }
 
     .divider2 .hh2 {
@@ -1730,7 +1737,7 @@ col .col2 {
     .divider2 div {
         font-size: 10px;
         padding: 1px 0px;
-        margin: 10px 0px 10px;
+        margin: 10px 54px 10px;
     }
 
     .back1 {
@@ -1747,8 +1754,12 @@ col .col2 {
 
     /* =============================== */
     .box6 {
-        width: 80%;
+        width: 85%;
         padding: 0px 27px;
+    }
+
+    .one button {
+        margin: auto;
     }
 
     .w11 h1 {
@@ -1775,11 +1786,17 @@ col .col2 {
 
     /* ============================== */
     .box7 {
-        width: 80%;
+        width: 85%;
         margin-top: 0px;
         padding-top: 60px;
         margin: 0px 27px;
 
+    }
+
+    .box7 span img {
+        width: 100px;
+        margin-left: 0px;
+        padding-top: 20px;
     }
 
     .w13 {
@@ -1796,6 +1813,10 @@ col .col2 {
         font-size: 9px;
         padding: 10px 10px;
         margin-top: 20PX;
+        margin: 30px 0px 0px 150px;
+    }
+    .btn10{
+        margin: 16px 0px 25px 0px;
     }
 
     .w14 {
@@ -1814,13 +1835,13 @@ col .col2 {
     }
 
     .video-content {
-        width: 80%;
+        width: 85%;
         padding: 0px 10px;
     }
 
     .w16 {
         padding: 45px 45px 30px;
-        width: 58%;
+        width: 67%;
         border-radius: 25px;
         margin-top: 20px;
 
@@ -1845,7 +1866,7 @@ col .col2 {
 
     .over {
         display: inline-block;
-        margin-left: 15px;
+        margin-left: 40px;
         top: 25%;
     }
 
@@ -1870,6 +1891,10 @@ col .col2 {
     /* ================================= */
     .box8 {
         padding-top: 60px;
+    }
+    .btn11{
+        
+        margin: 0px;
     }
 
     .w17 h1 {
